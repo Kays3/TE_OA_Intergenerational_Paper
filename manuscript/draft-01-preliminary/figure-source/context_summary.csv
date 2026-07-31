@@ -1,0 +1,9 @@
+tissue,context,candidate_records,unique_genes,priority_genes
+Liver,Promoter overlap,292,226,190
+Liver,Gene body,78,66,41
+Liver,Proximal,31,25,18
+Liver,Distal,23,22,12
+Brain,Promoter overlap,200,142,78
+Brain,Gene body,57,41,21
+Brain,Proximal,34,25,7
+Brain,Distal,12,9,2

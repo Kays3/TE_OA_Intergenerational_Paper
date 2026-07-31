@@ -141,6 +141,8 @@ did not prespecify a required direction for any exposure contrast.
 > discovery to TE quantification, differential modelling, localization, and
 > candidate prioritization.
 
+![Preliminary study design and computational workflow](figures/figure-1-study-design-workflow.png)
+
 ## Results
 
 ### Public-data reconstruction defines the primary and secondary cohorts
@@ -234,6 +236,8 @@ require audit under the new annotation.
 > size heatmap for the audited TE families. Do not reuse a heatmap of
 > significance counts without showing effect direction and uncertainty.
 
+![Preliminary brain-pilot TE differential-expression call summary](figures/figure-3-brain-pilot-summary.png)
+
 ### Preliminary TE-host-gene integration prioritizes promoter-overlapping associations
 
 The current localization analysis integrated 202,483 host-gene
@@ -276,6 +280,8 @@ matched genomic backgrounds and report enrichment, not raw frequency alone.
 > bars or a dot plot to compare candidate records, unique genes, and priority
 > genes. Add confidence intervals from a matched-background enrichment test in
 > the final version.
+
+![Preliminary tissue-by-context candidate summary](figures/figure-4-context-summary.png)
 
 > **TABLE 3 HERE - Complete tissue and genomic-context summary.** Include gill
 > after the full cohort is integrated, or state explicitly why gill is absent

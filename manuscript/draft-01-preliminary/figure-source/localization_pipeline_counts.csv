@@ -1,0 +1,4 @@
+stage,count,unit
+Gene differential-expression input,202483,Gene-contrast records
+Absolute log2FC at least 0.5,5184,Gene-contrast records
+TE-associated candidate set,727,Gene-contrast records

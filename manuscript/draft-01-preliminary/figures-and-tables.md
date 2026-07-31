@@ -7,7 +7,8 @@ depends on the frozen full-cohort analysis.
 
 ### Figure 1 - Study design and computational workflow
 
-**Status:** Can be drafted now; update sample counts after manifest freeze.
+**Status:** Preliminary version generated; update sample counts after manifest
+freeze.
 
 **Panels**
 
@@ -33,7 +34,8 @@ family structure, and secondary-analysis design immediately clear.
 
 ### Figure 3 - Audited brain-pilot TE expression
 
-**Status:** Thesis figures provide a prototype; regenerate from frozen data.
+**Status:** Preliminary call-count summary generated. Replace with the full
+effect-size and sample-level version after frozen-data reanalysis.
 
 **Panels**
 
@@ -47,7 +49,7 @@ family lines instead of significance-count heatmaps alone.
 
 ### Figure 4 - Tissue-by-genomic-context candidate landscape
 
-**Status:** Can be drafted from preliminary brain/liver summaries; add gill and
+**Status:** Preliminary brain/liver figure generated; add gill and
 matched-background enrichment later.
 
 **Current values available:**
