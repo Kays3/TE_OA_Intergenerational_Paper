@@ -51,6 +51,12 @@ def save(fig: plt.Figure, stem: str) -> None:
     for suffix in ("png", "pdf", "svg"):
         fig.savefig(OUTPUT / f"{stem}.{suffix}", dpi=300)
     plt.close(fig)
+    svg_path = OUTPUT / f"{stem}.svg"
+    svg_text = svg_path.read_text(encoding="utf-8")
+    svg_path.write_text(
+        "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n",
+        encoding="utf-8",
+    )
 
 
 def rounded_box(ax, xy, width, height, text, face, edge, fontsize=9):
