@@ -1,0 +1,12 @@
+claim_id	provisional_claim	required_computational_evidence	required_external_evidence	allowed_status
+C01	OA exposure changes TE-family expression within a tissue	FDR-controlled contrast, effect size, QC, family-line display	None	Computationally supported
+C02	A TE response is persistent across developmental and intergenerational exposure	Concordant D-C and I-C effects under prespecified criteria	None	Computationally supported
+C03	A TE returns toward control after parental exposure	D-C and D-I evidence plus I-C equivalence criterion	None	Computationally supported
+C04	A TE response is intergenerational-specific	I-C and I-D evidence with no comparable D-C effect	None	Computationally supported
+C05	Parental phenotype modifies a TE response	Estimable interaction plus within-phenotype and family-level estimates	Independent families or replication required for general genetic claim	Limited by family structure
+C06	A particular TE locus is transcribed	Locus-level assignment, strand/read inspection, exclusion of obvious overlap	Strand-specific RT-PCR, RACE, or targeted long-read RNA preferred	Candidate locus
+C07	A TE is associated with a nearby gene	Adjusted matched-sample association and genomic context	Independent replication preferred	Association only
+C08	A TE regulates a nearby gene	Association is insufficient	Reporter plus native-locus perturbation or equivalent causal test	Unsupported until functional test
+C09	OA causes TE mobilization	RNA expression is insufficient	New-insertion DNA evidence from WGS or targeted assay	Unsupported
+C10	The response is conserved in zebrafish	Sequence/synteny analysis plus comparable zebrafish molecular response	Zebrafish biological replication	Cross-species follow-up
+C11	Zebrafish replicates damselfish intergenerational acclimation	Not testable with a generic zebrafish stress experiment	Matched intergenerational OA design would be required	Do not claim

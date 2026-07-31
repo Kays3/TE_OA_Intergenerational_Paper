@@ -1,0 +1,31 @@
+.DS_Store
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Raw and large intermediate data stay on compute storage.
+raw/
+work/
+scratch/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sra
+*.rds
+
+# Result trees are ignored by default. Curated compact files can be forced into
+# Git after review, or placed in the explicitly tracked subdirectories.
+results/incoming/
+results/intermediate/
+
+# Local configuration and credentials.
+.env
+config.local.*
+secrets/
