@@ -287,6 +287,49 @@ matched genomic backgrounds and report enrichment, not raw frequency alone.
 > after the full cohort is integrated, or state explicitly why gill is absent
 > from this analysis module.
 
+### Matched contrasts do not support a uniform liver-versus-brain excess of TE differential expression
+
+We next quantified differential-expression call rates using the currently
+available liver and brain summaries. In the pooled records, gene calls were
+more frequent in liver than brain (3.341% versus 2.637%; odds ratio [OR] 1.28;
+Benjamini-Hochberg-adjusted Fisher *P* = 1.4 × 10^-20). The corresponding
+strict TE call rates were 2.021% and 1.579% (OR 1.29), but this pooled
+comparison did not pass multiple-testing correction (adjusted *P* = 0.0736).
+The stronger-effect strict-TE endpoint (absolute log2 fold change at least 1)
+was more frequent in liver (1.441% versus 0.866%; OR 1.67; adjusted *P* =
+0.00526). These pooled tests treat repeated features across contrasts as
+independent and are therefore descriptive rather than the primary tissue-level
+inference.
+
+The prespecified matched-stratum analysis compared liver and brain within six
+parental-phenotype-by-exposure-contrast strata using exact sign-flip tests on
+log2 rate ratios. Strict TE call rates were higher in liver in three strata and
+higher in brain in three, providing no evidence for a consistent tissue effect
+(adjusted *P* = 0.938). Gene and all-repeat endpoints were likewise not
+significant after correction. Within either tissue, strict TE call rates also
+did not differ consistently from gene call rates across the six strata
+(adjusted *P* = 0.785 in brain and 0.646 in liver). Thus, the apparent pooled
+liver excess is not stable across the matched biological comparisons and
+should not be interpreted as a general liver-specific activation programme.
+
+TE-host-gene candidate pairs showed a different tissue pattern. Raw pair-level
+screening produced more candidates in liver but a larger significant-pair
+fraction in brain (22.65% versus 14.24%); this comparison is descriptive because
+pairs share TEs and genes. After collapsing the data to one summary per TE,
+brain retained a higher median significant-pair fraction (0.486 versus 0.247;
+Benjamini-Hochberg-adjusted Mann-Whitney *P* = 6.55 × 10^-6; Cliff's delta for
+liver minus brain = -0.43) and a higher maximum robust association score
+(median 0.681 versus 0.622; adjusted *P* = 0.0245; Cliff's delta = -0.20).
+These results support a more concentrated brain TE-host-gene association
+landscape, not proof of TE-mediated regulation.
+
+> **UPDATED QUANTITATIVE FIGURE SET.** The reproducible analysis package
+> contains the artistic study design, pooled and stratum-matched TE/DGE rates,
+> matched odds ratios, per-TE association summaries, ranked candidates, and
+> mapping-quality control as publication-oriented PDF, SVG, and PNG files.
+> Confirmatory interpretation follows the matched-stratum and per-TE analyses;
+> pooled and raw-pair tests are labelled as descriptive screens.
+
 ### Preliminary locus maps identify brain and liver candidates
 
 The current ranking highlighted a liver association between
@@ -376,8 +419,10 @@ associated with different TE-related expression patterns from control and
 intergenerational exposure. In the localization analysis, promoter-overlapping
 candidate records were prominent in both brain and liver, but the prioritized
 host-gene categories differed between neural and metabolic/detoxification
-contexts. A tissue-stratified framework is therefore more defensible than an
-organism-wide claim.
+contexts. Moreover, the matched-stratum analysis found no consistent excess of
+strict TE differential expression in either tissue, whereas the per-TE
+association summaries were stronger in brain. A tissue- and contrast-stratified
+framework is therefore more defensible than an organism-wide claim.
 
 ### Exposure history and parental phenotype require cautious interpretation
 
@@ -460,11 +505,14 @@ responses to elevated CO2 in *A. polyacanthus*. A brain-focused pilot identified
 exposure-associated TE-related transcripts, while a broader species-specific
 localization analysis identified hundreds of TE-associated host-gene candidate
 records, especially in promoter-overlapping contexts in brain and liver. The
-completed analysis will determine which patterns survive family-aware,
-mapping, annotation, and locus-level sensitivity tests. Framed as a
-reproducible study of association and hypothesis prioritization, the work can
-make a publishable contribution without experimental validation while creating
-a rigorous foundation for future mechanistic studies.
+current quantitative comparison does not support a uniform tissue difference
+in TE differential-expression rates across matched contrasts, but it identifies
+a more concentrated per-TE host-gene association signal in brain. Further
+family-aware, mapping, annotation, and locus-level sensitivity tests will define
+the final evidence set. Framed as a reproducible study of association and
+hypothesis prioritization, the work can make a publishable contribution without
+experimental validation while creating a rigorous foundation for future
+mechanistic studies.
 
 ## Methods
 

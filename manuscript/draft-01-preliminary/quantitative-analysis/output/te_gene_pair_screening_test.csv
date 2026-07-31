@@ -1,0 +1,2 @@
+brain_significant_pairs,brain_shared_de_pairs,brain_rate,liver_significant_pairs,liver_shared_de_pairs,liver_rate,liver_vs_brain_odds_ratio,odds_ratio_ci_low,odds_ratio_ci_high,fisher_p,fisher_p_underflow,interpretation
+12566,55488,0.22646337946943484,15637,109799,0.14241477609085693,0.5672319129740621,0.5526136409667693,0.5822368816906602,2.2250738585072014e-308,True,screening-only; TE-gene pairs are non-independent

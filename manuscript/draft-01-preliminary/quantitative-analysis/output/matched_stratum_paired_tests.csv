@@ -1,0 +1,4 @@
+analysis_type,matched_strata,median_liver_vs_brain_log2_rate_ratio,mean_liver_vs_brain_log2_rate_ratio,liver_higher_strata,brain_higher_strata,exact_sign_flip_p,exact_sign_flip_padj_bh
+gene,6,0.5871488924820227,0.3941828713980194,4,2,0.5,0.9375
+all_repeat,6,0.5061758577502946,0.09375609523464383,4,2,0.9375,0.9375
+strict_TE,6,0.5316154828175756,0.1480686805748205,3,3,0.84375,0.9375
