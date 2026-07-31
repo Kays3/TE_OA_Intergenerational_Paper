@@ -28,9 +28,11 @@ intergenerational acclimation?
   PRJNA311159, subject to metadata reconciliation.
 - **No archived damselfish material:** the study will not claim molecular
   validation in the original animals.
-- **Possible zebrafish follow-up:** a cross-species test of conserved TE
-  responsiveness or a selected TE-associated regulatory mechanism. This is
-  not direct replication of the damselfish acclimation effect.
+- **Validation-independent manuscript:** the paper is scoped as a reproducible
+  computational secondary analysis and does not require wet-lab validation.
+- **Possible future zebrafish follow-up:** a cross-species experiment may test
+  a later mechanistic hypothesis, but it is outside the evidence required for
+  this manuscript and is not direct replication of the damselfish effect.
 
 ## Project files
 

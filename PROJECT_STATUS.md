@@ -4,11 +4,12 @@ Last updated: 2026-07-31
 
 ## Current phase
 
-**Protocol and repository setup**
+**Computational results intake and manuscript framing**
 
-The computational protocol and manuscript structure exist. Full-cohort
-results have not yet been imported or scientifically reviewed in this
-repository.
+The computational protocol and a validation-independent manuscript structure
+exist. Full-cohort results have not yet been imported or scientifically
+reviewed in this repository. Wet-lab or zebrafish work is not required for the
+paper's defined claims; any future experiment will be treated as follow-up.
 
 ## Incoming-results checklist
 
@@ -38,4 +39,3 @@ repository.
 
 None for repository setup. Biological interpretation is intentionally blocked
 until the complete result package and provenance arrive.
-
