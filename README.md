@@ -1,3 +1,5 @@
+> **Archived:** This project has been consolidated into [`Kays3/TE_Ocean_Acidification`](https://github.com/Kays3/TE_Ocean_Acidification), under [`TE_OA_Intergenerational_Paper/`](https://github.com/Kays3/TE_Ocean_Acidification/tree/main/TE_OA_Intergenerational_Paper). Active work and future updates are maintained there.
+
 # TE ocean-acidification paper project
 
 ## Working title
