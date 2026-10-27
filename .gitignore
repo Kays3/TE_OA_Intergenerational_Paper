@@ -9,6 +9,7 @@ __pycache__/
 raw/
 work/
 scratch/
+tmp/
 *.fastq
 *.fastq.gz
 *.fq

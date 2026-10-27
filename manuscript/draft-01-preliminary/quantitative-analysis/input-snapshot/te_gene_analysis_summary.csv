@@ -1,0 +1,3 @@
+"tissue","samples","expressed_features","candidate_tes","candidate_genes","candidate_features_missing_after_filter","residual_degrees_freedom","design_ranks","shared_de_pairs","stable_direction_pairs","stable_pairs_fdr_lt_0_05","top_robust_score"
+"brain",30,25573,73,2144,144,16,"sensitive=7/15;tolerant=7/15",55488,26913,12566,0.887875417130145
+"liver",30,20952,93,2466,623,20,"sensitive=5/15;tolerant=5/15",109799,51232,15637,0.929699666295884
